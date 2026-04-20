@@ -1,4 +1,4 @@
-# 🤖 AI-Driven Power BI Development Using Claude Desktop & MCP Protocol
+# 🤖 From Prompt to Analysis Dashboard | Power BI + Claude AI + MCP
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Claude AI](https://img.shields.io/badge/Claude%20AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
@@ -6,7 +6,7 @@
 ![MCP](https://img.shields.io/badge/MCP-Protocol-blueviolet?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-A complete **AI-powered Power BI project** where the entire data model including date table, relationships, DAX KPI measures, and dashboard was built using **natural language prompts** through **Claude Desktop** connected to Power BI via the **MCP (Model Context Protocol)**. No manual DAX writing. No manual relationship building. Just plain English commands.
+What if you could build a complete Power BI project just by talking to AI? This project does exactly that. **Claude Desktop** connects to Power BI via **MCP Protocol** and takes natural language commands, creating tables, relationships, DAX measures, and dashboard blueprints automatically. No manual DAX writing. No manual relationship building. Just plain English.
 
 ---
 
@@ -48,12 +48,14 @@ This project is built on a **food delivery business dataset** with a star schema
 - Search for **"powerbi-modeling-mcp"** in Extensions
 - Install it
 
+![MCP Server Running](./screenshots/mcp_setup_claude_vscode.png)
+
 ### Step 2 Configure Claude Desktop MCP Server
 - Open Claude Desktop → Settings → Developer
 - Click **Edit Config**
 - Add the powerbi-modeling-mcp server pointing to the extension executable
 
-![MCP Server Running](./screenshots/mcp_setup.png)
+![MCP Server Running](./screenshots/mcp_setup_claude.png)
 
 The server will show **"running"** status when connected successfully.
 
