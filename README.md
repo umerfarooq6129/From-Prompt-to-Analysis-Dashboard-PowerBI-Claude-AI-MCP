@@ -98,9 +98,11 @@ Also create all the required date related columns inside the date table.
 ```
 
 ***Claude AI:***
+
 ![Date Table Created](./screenshots/date_table_claude.png)
 
 ***Power Bi:***
+
 ![Date Table Created](./screenshots/date_table.png)
 
 **What Claude built automatically — 10 columns created by AI:**
@@ -128,9 +130,11 @@ Create relationships.
 ```
 
 ***Claude AI:***
+
 ![Data Model](./screenshots/data_model_claude.png)
 
 ***Power Bi:***
+
 ![Data Model](./screenshots/data_model.png)
 
 **Claude automatically detected and created all relationships:**
@@ -151,9 +155,11 @@ please create dax measures for all the possible KPIs from the data we have
 ```
 
 ***Claude AI:***
+
 ![KPIs Created By Claude](./screenshots/kpi_claude.png)
 
 ***Power Bi:***
+
 ![KPIs Created](./screenshots/kpis.png)
 
 **Claude created a full library of 55 DAX measures organized by category — all from one prompt:**
@@ -191,6 +197,7 @@ please create a dashboard with some important KPIs and charts which can help bus
 Before building anything in Power BI, we first asked Claude to suggest what KPIs and charts would be most useful for the business. Claude gave us a complete dashboard idea, what to measure, what visuals to use, and what data tells the most important business story.
 
 ***Claude AI:***
+
 ![HTML Dashboard](./screenshots/html_dashboard_1.png)
 ![HTML Dashboard](./screenshots/html_dashboard_2.png)
 
