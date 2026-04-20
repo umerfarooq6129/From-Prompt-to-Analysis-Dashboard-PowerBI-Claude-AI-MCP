@@ -97,7 +97,10 @@ create a date table from order date field from dim date table.
 Also create all the required date related columns inside the date table.
 ```
 
+***Claude AI:***
 ![Date Table Created](./screenshots/date_table_claude.png)
+
+***Power Bi:***
 ![Date Table Created](./screenshots/date_table.png)
 
 **What Claude built automatically — 10 columns created by AI:**
@@ -124,10 +127,10 @@ create a data model from the tables I have in power bi [File Name].
 Create relationships.
 ```
 
-Claude Ai:
+***Claude AI:***
 ![Data Model](./screenshots/data_model_claude.png)
 
-Power Bi:
+***Power Bi:***
 ![Data Model](./screenshots/data_model.png)
 
 **Claude automatically detected and created all relationships:**
@@ -147,8 +150,10 @@ All relationships were created perfectly with correct cardinality no manual drag
 please create dax measures for all the possible KPIs from the data we have
 ```
 
+***Claude AI:***
 ![KPIs Created By Claude](./screenshots/kpi_claude.png)
 
+***Power Bi:***
 ![KPIs Created](./screenshots/kpis.png)
 
 **Claude created a full library of 55 DAX measures organized by category — all from one prompt:**
@@ -183,12 +188,13 @@ Here we tested all KPIs to check whether they are working fine or not.
 please create a dashboard with some important KPIs and charts which can help business
 ```
 
-Before building anything in Power BI, we first asked Claude to suggest what KPIs and charts would be most useful for the business. Claude gave us a complete dashboard idea — what to measure, what visuals to use, and what data tells the most important business story.
+Before building anything in Power BI, we first asked Claude to suggest what KPIs and charts would be most useful for the business. Claude gave us a complete dashboard idea, what to measure, what visuals to use, and what data tells the most important business story.
 
+***Claude AI:***
 ![HTML Dashboard](./screenshots/html_dashboard_1.png)
 ![HTML Dashboard](./screenshots/html_dashboard_2.png)
 
-Claude generated a **complete dark-themed HTML dashboard** as the blueprint — showing exactly what the Power BI dashboard should look like.
+Claude generated a **complete dark-themed HTML dashboard** as the blueprint showing exactly what the Power BI dashboard should look like.
 
 **8 KPI Cards suggested by Claude:**
 
@@ -222,7 +228,7 @@ can you use the Power BI REST API or any available method to create the visuals
 directly on my Power BI report page? i have an empty page called "Page 1" ready.
 ```
 
-**Claude's honest response — The hard truth about Power BI canvas automation:**
+**Claude's honest response - The hard truth about Power BI canvas automation:**
 
 Claude explained that there are 3 ways to programmatically create visuals in a .pbix file, and here is the real status of each:
 
@@ -246,7 +252,7 @@ can you redesign this above html dashboard in the size of power bi canvas?
 
 ![Power BI Canvas Dashboard](./screenshots/powerbi_canvas_dashboard.png)
 
-Claude rebuilt the entire dashboard at exact **1280x720px — the standard Power BI Desktop canvas size** — pixel-perfect, so it can be used as a direct reference or screenshot overlay when manually recreating in Power BI.
+Claude rebuilt the entire dashboard at exact **1280x720px — the standard Power BI Desktop canvas size** pixel-perfect, so it can be used as a direct reference or screenshot overlay when manually recreating in Power BI.
 
 **Layout breakdown Claude followed:**
 
