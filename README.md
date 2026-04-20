@@ -48,7 +48,7 @@ This project is built on a **food delivery business dataset** with a star schema
 - Search for **"powerbi-modeling-mcp"** in Extensions
 - Install it
 
-![MCP Server Running](./screenshots/mcp_setup_claude_vscode.png)
+![MCP Server Running](./screenshots/mcp_setup_vscode.png)
 
 ### Step 2 Configure Claude Desktop MCP Server
 - Open Claude Desktop → Settings → Developer
